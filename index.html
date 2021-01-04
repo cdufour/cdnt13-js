@@ -8,12 +8,50 @@
 <body>
     <h1 style="color:orange">Introduction</h1>
     <button>Test</button>
+    <button>Reset</button>
+    <p>Compteur de clics: <strong id="counter">0</strong></p>
     
     <script>
+        /*
         document
             .getElementsByTagName("h1")[0]
             .innerText = "Toto";
+        */
+
+        // ciblage du DOM
+        var h1 = document.getElementsByTagName("h1")[0];
+        var btn = document.getElementsByTagName("button")[0];
+        var counter = document.getElementById("counter");
+        var btnReset = document.getElementsByTagName("button")[1];
+
+        // autres globales
+        // colors = tableau de string
+        var colors = 
+            ["red", "green", "blue", "pink", "orange", "#44ffcc"];
+        var index = 0; // number
+        var nbClic = 0;
+
+        // écoute événementielle
+        btn.addEventListener("click", function() {
+            //h1.innerText += " Toto";
+            h1.style.color = colors[index];
+            //index = index + 1;
+            index += 1; // équivalent à index++
+
+            if (index == colors.length) index = 0;
+
+            nbClic++;
+            counter.innerText = nbClic;
+        })
+
+        btnReset.addEventListener("click", function() {
+            index = 0;
+            nbClic = 0;
+            h1.style.color = colors[index];
+            counter.innerText = nbClic;
+        })
 
     </script>
+
 </body>
 </html>

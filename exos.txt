@@ -1,0 +1,3 @@
+*** Exos ***
+Afficher dans la balise strong le nombre de clics effectués
+sur le bouton
