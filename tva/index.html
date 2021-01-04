@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur TVA</title>
+</head>
+<body>
+    <h1>Calculateur TVA</h1>
+    <input id="txtHt" type="text"
+        placeholder="Montant HT" 
+        style="width:80px" /> €
+    <select id="selectTax">
+        <option value="">Choisir le taux</option>
+        <option value="20">20%</option>
+        <option value="10">10%</option>
+        <option value="5.5">5,5%</option>
+    </select>
+    <div>
+        Montant TVA: <span id="spanTva"></span> €
+        <br>
+        Montant TTC: <span id="spanTtc"></span> €
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
