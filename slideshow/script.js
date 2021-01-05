@@ -5,6 +5,7 @@ var cityName    = document.getElementById("cityName");
 // autres globales
 var images = ["paris", "rio", "rome", "lisbonne"];
 var i = 0;
+var PERSIST_DURATION = 1000 * 5; // 5 secondes
 
 function animation1() {
     setInterval(function() {
@@ -34,7 +35,6 @@ function animation2() {
 
 function animation3() {
     fadeOut(imgCity, 100);
-    fadeIn(imgCity, 100);
 }
 
 // fonction destinée à faire apparaître 
@@ -46,7 +46,13 @@ function fadeIn(img, speed) {
         img.style.opacity = opacity;
 
         // arrêt
-        if (opacity >= 1) clearInterval(interval);
+        if (opacity >= 1) {
+            clearInterval(interval);
+            // peristence de l'image avant disparition
+            setTimeout(function() {
+                fadeOut(img, speed);
+            }, PERSIST_DURATION)
+        }
 
     }, speed)
 }
@@ -60,7 +66,14 @@ function fadeOut(img, speed) {
         img.style.opacity = opacity;
 
         // arrêt
-        if (opacity <= 0) clearInterval(interval);
+        if (opacity <= 0) {
+            clearInterval(interval);
+            imgCity.src = 'images/' + images[i] + '.jpg';
+            cityName.innerText = capitalize(images[i]);
+            i++;
+            if (i == images.length) i = 0;
+            fadeIn(imgCity, 100);
+        }
 
     }, speed)
 }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expand</title>
+    <style>
+        h2 { cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Expand</h1>
+    <button id="btnShow">Afficher tout</button>
+    <!--
+        Variante possible:
+        <input id="btnShow" type="checkbox" />
+        <span>Afficher tout</span>
+
+        Attention: pensez à adapter le script à cette structure du DOM
+        (this.nextElementSibling)
+    -->
+    <h2>Article 1</h2>
+    <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis hic distinctio suscipit esse cum ipsa aliquid eveniet explicabo, laborum saepe, culpa temporibus recusandae, eligendi non. Magnam maiores saepe libero. Saepe.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste distinctio aliquid quas id debitis tenetur alias eveniet, ab incidunt omnis reprehenderit illo iure ipsum rerum nesciunt, aperiam placeat aliquam molestiae.</p>
+    </article>
+
+    <h2>Article 2</h2>
+    <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis hic distinctio suscipit esse cum ipsa aliquid eveniet explicabo, laborum saepe, culpa temporibus recusandae, eligendi non. Magnam maiores saepe libero. Saepe.</p>
+    </article>
+
+    <h2>Article 3</h2>
+    <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis hic distinctio suscipit esse cum ipsa aliquid eveniet explicabo, laborum saepe, culpa temporibus recusandae, eligendi non. Magnam maiores saepe libero. Saepe.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic veniam non debitis vitae assumenda dicta eius, cum delectus quae inventore deleniti corporis rem cumque. Impedit quisquam esse quod ea dolor?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rem veniam magnam quae, aliquam vero facere animi eaque mollitia, cumque quos ex, adipisci aspernatur nostrum eveniet dignissimos repudiandae harum eos?</p>
+    </article>
+    
+    <script src="script.js"></script>
+</body>
+</html>

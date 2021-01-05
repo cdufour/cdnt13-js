@@ -1,7 +1,14 @@
 *** Exos ***
+ED: intro
 Afficher dans la balise strong le nombre de clics effectués
 sur le bouton
 
 
+ED: slideshow
 Changer le nom de la ville dans la balise h3
 en même temps que l'image
+
+
+ED: expand
+Ajouter dans l'interface un bouton "Afficher tout"
+Le clic sur ce bouton devra faire apparaître tous les articles
