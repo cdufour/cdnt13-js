@@ -1,0 +1,6 @@
+*** Travel ***
+Reproduire l'application de la video "travel/js-tp-travel.webm"
+
+Tarif pour une personne: 230 EUR
+Montant de la réduction en cas de coupon valide: 40 EUR
+Coupon valide: ROMAVICTOR
