@@ -1,3 +1,7 @@
 *** Exos ***
 Afficher dans la balise strong le nombre de clics effectués
 sur le bouton
+
+
+Changer le nom de la ville dans la balise h3
+en même temps que l'image
