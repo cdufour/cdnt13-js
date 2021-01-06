@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP travel</title>
+    <style>
+        section#thumbs img { height: 50px }
+    </style>
+</head>
+<body>
+    <h1>Week-end ailleurs</h1>
+    <img style="height:300px" 
+        src="images/lisbonne.jpg" alt="Lisbonne">
+    <section id="thumbs">
+        <img src="images/lisbonne.jpg">
+        <img src="images/paris.jpg">
+        <img src="images/rio.jpg">
+        <img src="images/rome.jpg">
+    </section>
+    <p>Prix pour <span id="numPers">1 personne</span>: 
+        <span id="price">230,00</span> EUR</p>
+    <p>Nombre de voyageurs:
+        <select id="selectNumPers">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+    </p>
+    <input type="text" />
+    <button id="btnApply">Appliquer</button>
+    <section></section>
+    <script src="script.js"></script>
+</body>
+</html>
