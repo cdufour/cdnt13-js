@@ -1,0 +1,12 @@
+*** TP Socge ***
+
+En vous basant sur le fichier socge.png (captures du site https://particuliers.societegenerale.fr/com/icd-web/cbo/index.html), réaliser une interface web offrant un double mécanisme d'identification front.
+
+Lorsque le code le premier code est correctement saisi (8 chiffres), le bouton valider devient clicable.
+
+Le clic sur le bouton Valider affiche un clavier virtuel permettant de renseigner un mot de passe à 6 chiffres dans les emplacements prévus à cet effet par clic sur les touches numérotées (ordre aléatoire).
+
+Le clic sur le bouton toggle oui/non modifie le texte ainsi que l'apparence du bouton.
+
+Le clic sur l'icône d'information, affiche une boîte de dialogue.
+Le clic dans la boîte de dialogue la fait disparaître

@@ -45,6 +45,7 @@ selectNumPers.addEventListener("change", function() {
 btnApply.addEventListener("click", function() {
     var inputVal = this.previousElementSibling.value;
     if (inputVal != VALID_COUPON) {
+        // équivalent par utilisation de innerHTML:
         /*
         this.nextElementSibling.innerHTML =
             '<span style="color: red">Coupon non valable</span>';
@@ -52,8 +53,7 @@ btnApply.addEventListener("click", function() {
        this.nextElementSibling.innerText = "Coupon non valable";
        this.nextElementSibling.style.color = COLORS.failure; // red
     } else { // coupon valable
-        this.nextElementSibling.innerText =
-            "Coupon valable";
+        this.nextElementSibling.innerText = "Coupon valable";
         this.nextElementSibling.style.color = COLORS.success; // green
         price.innerText = totalPrice - DISCOUNT + ",00"
     }

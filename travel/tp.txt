@@ -1,4 +1,4 @@
-*** Travel ***
+*** TP Travel ***
 Reproduire l'application de la video "travel/js-tp-travel.webm"
 
 Tarif pour une personne: 230 EUR
