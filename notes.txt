@@ -1,0 +1,20 @@
+CLIENT WEB <=> SERVEUR WEB
+PROTOCOLE HTTP
+
+CHROME => HTTP GET https://www.lequipe.fr/
+
+lequipe.fr => HTTP RESPONSE
+
+GET https://www.lequipe.fr/Football/
+
+RESPONSE N remplace RESPONSE N-1
+
+REQUÊTES HTTP:
+	- traditionnelles (barre url)
+	- ajax (émise par JS)
+
+
+node -v
+npm -v
+npm i -g serve
+serve -v

@@ -12,3 +12,12 @@ en même temps que l'image
 ED: expand
 Ajouter dans l'interface un bouton "Afficher tout"
 Le clic sur ce bouton devra faire apparaître tous les articles
+
+
+ED: ajax
+Afficher dans le DOM un menu de sélection (balise select)
+ayant pour options le nom des équipes récupérées par
+la requête ajax
+
+Afficher le nombre de "scudetti" entre parenthèses, après le nom de 
+l'équipe pour chaque élément (item) de la liste

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Juventus",
+        "scudetti": 36,
+        "players": [
+            {
+                "name": "Dybala",
+                "num": 10,
+                "isInjured": false
+            },
+            {
+                "name": "Cuadrado",
+                "num": 16,
+                "isInjured": true
+            }
+
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Milan AC",
+        "scudetti": 18,
+        "players": [
+            {
+                "name": "Donnarumma",
+                "num": 1,
+                "isInjured": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "PSG",
+        "scudetti": 11,
+        "players": [
+            {
+                "name": "Fiorenzi",
+                "num": 19,
+                "isInjured": true
+            }
+        ]
+    }
+]
