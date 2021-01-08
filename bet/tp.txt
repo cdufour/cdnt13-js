@@ -1,0 +1,8 @@
+*** TP Bet ***
+
+En vous basant sur la capture "bet.png", créer une interface affichant les
+ paris listés dans le fichier bet.json.
+Le clic sur une cote, affichera dans le DOM une zone permettant de saisir
+une mise ainsi que les gains correpondants.
+Le parieur peut supprimer cette zone en cliquant sur une croix de suppression.
+Le parieur peut cliquer sur une autre cote, la zone de mise se met alors à jour.

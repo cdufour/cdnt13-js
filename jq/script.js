@@ -20,9 +20,14 @@ search.keyup(() => {
 
 function buildDom() {
     ulCountries.html(""); // reset
-    countriesFiltered.forEach(country => {
-        var li = $("<li>"+ country +"</li>");
-        //li.text(country);
-        ulCountries.append(li);
-    })
+
+    // countriesFiltered.forEach(country => {
+    //     var li = $("<li>"+ country +"</li>");
+    //     ulCountries.append(li);
+    // })
+
+    ulCountries.append(
+        countriesFiltered.map(country => $("<li>"+ country +"</li>"))
+    )
+
 }
