@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meal DB</title>
+    <style>
+        img.thumb { width: 100px }
+    </style>
 </head>
 <body>
     <h1>Meal DB</h1>
+
+    <div id="app">
+        <select id="selectCategory">
+            <option value="">Choisir une catégorie</option>
+            <option value="Beef">Boeuf</option>
+            <option value="Chicken">Poulet</option>
+            <option value="Dessert">Dessert</option>
+            <option value="Pasta">Pasta</option>
+        </select>
+
+        <!-- zone de chargement des photos de repas -->
+        <div id="gallery"></div>
+    </div>
 
     <script src="script.js"></script>
 </body>
