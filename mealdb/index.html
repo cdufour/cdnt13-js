@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meal DB</title>
-    <style>
-        img.thumb { width: 100px }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Meal DB</h1>
 
     <div id="app">
+
         <select id="selectCategory">
             <option value="">Choisir une catégorie</option>
             <option value="Beef">Boeuf</option>
@@ -22,6 +21,19 @@
 
         <!-- zone de chargement des photos de repas -->
         <div id="gallery"></div>
+
+        <!-- zone d'affichage du détail d'un repas -->
+        <div id="details" class="hidden">
+            <button>X</button>
+            <h2>Nom du repas</h2>
+            <div id="detailsTags"></div>
+            <div>
+                <span id="detailsCategory">Catégorie</span>
+                <span id="detailsArea">Zone géo</span>
+            </div>
+            <iframe width="100%" height="315" src=""></iframe>
+        </div>
+
     </div>
 
     <script src="script.js"></script>

@@ -21,3 +21,9 @@ la requête ajax
 
 Afficher le nombre de "scudetti" entre parenthèses, après le nom de 
 l'équipe pour chaque élément (item) de la liste
+
+
+ED: mealdb
+Ajouter - sous le titre - les tags
+dans le div des détails du repas, sur une ligne séparée
+Exemple: "Meat, Casserole" (mealId: 52772)
