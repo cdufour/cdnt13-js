@@ -1,0 +1,57 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bet {
+    width: 260px;
+    background-color: #eee;
+    padding: 4px;
+    border-radius: 4px;
+    height: 210px;
+    float: left;
+    margin-right: 10px
+}
+
+.poster {
+    height: 100px;
+    background-size: cover
+}
+
+.info {
+    font-size: 8pt;
+    color: #555
+}
+
+.bet button {
+    font-size: 16pt;
+    margin-right: 2px
+}
+
+.clear { clear: both; }
+
+.selected {
+    background-color: #f4f4f4;
+    border-radius: 2px;
+    padding: 6px;
+    width: 400px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px 2px #ddd;
+}
+.selected input { 
+    width: 40px; 
+    padding: 4px;
+    margin: 0 10px 
+}
+.selected p.game {
+    font-size: 9pt;
+    font-weight: bold;
+    color: #888;
+}
+.selected button {
+    float: right
+}
+
+.choice {
+    background-color: #fc7f12;
+    color: white
+}

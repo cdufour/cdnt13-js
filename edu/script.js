@@ -6,7 +6,7 @@ var result  = document.getElementById("result");
 var sums    = [];
 var NUM_OP  = 10;
 var points  = 0;
-var LEVEL   = 1; //1: facile, 2: moyen, 3: difficile
+var LEVEL   = 2; //1: facile, 2: moyen, 3: difficile
 
 function startGame() {
     for(var i=0; i<NUM_OP; i++) {

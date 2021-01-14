@@ -1,0 +1,29 @@
+[
+    {
+        "team1": "Juventus",
+        "team2": "Udinese",
+        "odds": [1.52, 4.40, 7.50],
+        "date": "2021-01-08T20:45",
+        "poster": "2021_Juventus_Home_Chiellini_Ronaldo.jpg",
+        "country": "Italie",
+        "competition": "Serie A"
+    },
+    {
+        "team1": "Bayern Munich",
+        "team2": "Mayence",
+        "odds": [1.12, 12, 25],
+        "date": "2021-01-08T18:00",
+        "poster": "2021_Pavard_Lewa_home.jpg",
+        "country": "Allemagne",
+        "competition": "Bundesliga"
+    },
+    {
+        "team1": "Borussia Dortmund",
+        "team2": "Wolfsburg",
+        "odds": [1.63, 4.35, 5.40],
+        "date": "2021-01-08T20:45",
+        "poster": "2021_Dortmund_team_home_3.jpg",
+        "country": "Allemagne",
+        "competition": "Bundesliga"
+    }
+]
